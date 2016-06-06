@@ -12,10 +12,10 @@ MVC microframework with support for URL routing and database management
 5. [philo/laravel-blade](https://github.com/PhiloNL/Laravel-Blade/tree/master)
 
 
-### Installation
+### Installation  
 
 Clone repository
-    https://github.com/ipaulin/Framex.git .
+    ´git clone https://github.com/ipaulin/Framex.git .´
 
 Install dependencies
-    composer install
+    ´composer install´
