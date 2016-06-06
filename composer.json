@@ -1,0 +1,24 @@
+{
+  "name": "paulin/framex",
+  "description": "MVC microframework",
+  "require": {
+    "illuminate/container": "^5.2",
+    "illuminate/routing": "^5.2",
+    "illuminate/events": "^5.2",
+    "illuminate/database": "^5.2",
+    "philo/laravel-blade": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/",
+      "Controllers\\": "app/Controllers/",
+      "Models\\": "app/Models/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ivan Paulin",
+      "email": "paulin.ivan.1@gmail.com"
+    }
+  ]
+}
