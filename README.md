@@ -2,6 +2,7 @@
 
 MVC microframework with support for URL routing and database management
 
+
 ### Built with components:
 
 1. [illuminate/database](https://github.com/illuminate/database)
@@ -9,3 +10,12 @@ MVC microframework with support for URL routing and database management
 3. [illuminate/container](https://github.com/illuminate/container)
 4. [illuminate/routing](https://github.com/illuminate/routing)
 5. [philo/laravel-blade](https://github.com/PhiloNL/Laravel-Blade/tree/master)
+
+
+### Installation
+
+Clone repository
+    https://github.com/ipaulin/Framex.git .
+
+Install dependencies
+    composer install
