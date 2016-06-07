@@ -12,5 +12,5 @@ composer.phar
 # PHPStorm IDE
 /.idea/*
 
-#Cache directory
-/app/cache/compiled_views/*
+#Compield views directory
+/app/cache/compiled_views/
