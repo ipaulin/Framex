@@ -13,4 +13,5 @@ composer.phar
 /.idea/*
 
 #Compield views directory
-/app/cache/compiled_views/
+/app/cache/compiled_views/*
+!/app/cache/compiled_views
