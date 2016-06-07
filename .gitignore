@@ -13,4 +13,4 @@ composer.phar
 /.idea/*
 
 #Cache directory
-/app/cache/*
+/app/cache/compiled_views/*
