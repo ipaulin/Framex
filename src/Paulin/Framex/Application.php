@@ -34,7 +34,7 @@ class Application extends Container
 
         $this->getRoutes();
 
-        $this->bind('Illuminate\Http\Request', function() {
+        $this->singleton('Illuminate\Http\Request', function() {
             $request = new Request();
             return $request::createFromGlobals();
         });
