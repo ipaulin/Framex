@@ -34,7 +34,12 @@ class Application extends Container
 
         $this->getRoutes();
 
-        $this->request = Request::createFromGlobals();
+        $this->bind('Illuminate\Http\Request', function() {
+            $request = new Request();
+            return $request::createFromGlobals();
+        });
+
+        $this->request = $this->make('Illuminate\Http\Request');
 
         $this->setViewComponent();
 
