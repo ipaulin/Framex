@@ -3,18 +3,11 @@ use Illuminate\Events\Dispatcher;
 use Illuminate\Container\Container;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
-$capsule = new Capsule();
-$capsule->addConnection([
-    'driver'    => 'mysql',
-    'host'      => 'localhost',
-    'database'  => '',
-    'username'  => '',
-    'password'  => '',
-    'charset'   => 'utf8',
-    'collation' => 'utf8_unicode_ci',
-    'prefix'    => '',
-]);
+$config = require __DIR__ . '/../../../app/config/database_config.php';
 
+$capsule = new Capsule();
+
+$capsule->addConnection($config);
 
 $capsule->setEventDispatcher(new Dispatcher(new Container));
 
